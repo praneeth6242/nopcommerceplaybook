@@ -1,0 +1,5 @@
+- name: Playbook
+  hosts: all
+  become: yes
+  roles: 
+    - nop
